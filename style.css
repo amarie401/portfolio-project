@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+/* General */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+.content-section {
+  min-height: 100vh;
+  /* Add padding so that section is not blocked by navbar. */
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.content-section-header {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.content-home {
+  padding-top: 15%;
+}
+
+.down-arrow {
+  font-size: 70px;
+}
+
+.down-arrow > a {
+  color: #fff;
+}
+
+.thumbnail {
+  padding-top: 20px;
+}
+
+
+/* Home */
+
+.content-home {
+  background: url('https://i1216.photobucket.com/albums/dd374/Laydeetink92/free-5k-retina-and-27-imac-psd-mockup.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.content-home .jumbotron {
+  /* Fallback Background Color */
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.content-about {
+  background-color: #fff;
+}
+
+.content-portfolio {
+  background-color: #eee;
+}
+
+.content-contact {
+  margin-top: 50px;
+  min-height: 20vh;
+}
+
+.img-responsive {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  margin-right: 100px;
+}
+
+/* Demo Stuff */
+
+.content-social,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.social-container {
+  margin: 0 auto;
+  padding: 40px 0;
+  height: 100%;
+}
+
+
+/* Add this ID to a section or something you want to change the background-color */
+
+.social-container {
+  padding: 60px 0;
+  transition: all .2s ease-out;
+}
+
+
+/* Button Styles */
+
+.social-container a {
+  display: block;
+  line-height: 40px;
+  border: 1px solid rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .6);
+  margin: 20px 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.social-container a::before {
+  background-color: transparent;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.social-container a i {
+  margin-right: 15px;
+}
+
+.social-container a:hover {
+  border: 1px solid rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .75);
+}
+
+
+/* Hover background colors */
+
+.social-twitter:hover::before {
+  background-color: #4FC3F7 !important;
+}
+
+.social-github:hover::before {
+  background-color: #7986CB !important;
+}
+
+.social-linkedin:hover::before {
+  background-color: #64B5F6 !important;
+}
+
+.social-fcc:hover::before {
+  background-color: #A1887F !important;
+}
+
+.social-container a,
+.social-container a::before {
+  transition: all .2s ease-in;
+}
+
+.social-buttons {
+  margin: 5vh 0;
+}
+
+footer {
+  background-color: #EEE;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer. */
+  height: 50px;
+}
+
+footer .container {
+  padding: 10px;
+}
+
+.blue-cuppa {
+  color:#9cc9ed;
+}
+
+.purple-music {
+  color:#c1a2c9;
+}
+
+.pink-heart {
+  color:#ff83ab;
+}
